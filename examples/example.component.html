@@ -1,0 +1,19 @@
+<div class="main">
+	<ng-container *ngFor="let list of lists; let i = index;">
+		<div class="container">
+			<div class="container-title">
+				{{list.name}}
+				<a (click)="addItem(i)">Add</a>
+				<a (click)="clearItems(i)">Clear</a>
+			</div>
+
+			<div draggable-container="item-container" [containerId]="i" class="draggable-container" (onSort)="onSort($event)">
+				<div *draggableFor="let item of list.items">
+					<div class="item" draggable-item>
+						{{item}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</ng-container>
+</div>
