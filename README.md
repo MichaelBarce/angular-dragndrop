@@ -1,11 +1,11 @@
 # Angular Drag & Drop 
 A Mobile Friendly Drag & Drop, Sortable directives / services for Angular.
 
-**Desktop**
-[![desktop demo](http://giant.gfycat.com/ShortInexperiencedFlicker.webm)](http://giant.gfycat.com/ShortInexperiencedFlicker.webm)
+## Browser Preview
+[![desktop demo](https://raw.githubusercontent.com/azarus/angular-dragndrop/master/dragndrop-preview.gif)](https://raw.githubusercontent.com/azarus/angular-dragndrop/master/dragndrop-preview.gif)
 
-**Mobile**
-[![mobile demo](https://giant.gfycat.com/AgonizingWideeyedBanteng.webm)](https://giant.gfycat.com/AgonizingWideeyedBanteng.webm)
+## Mobile Preview
+[![desktop demo](https://raw.githubusercontent.com/azarus/angular-dragndrop/master/dragndrop-mobile.gif)](https://raw.githubusercontent.com/azarus/angular-dragndrop/master/dragndrop-mobile.gif)
 
 ## Supported platforms
 
